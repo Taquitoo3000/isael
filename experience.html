@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experience of Isael</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
     <header>
@@ -31,9 +32,21 @@
                 one corresponding to the Langmuir model and another linear contribution.</p>
             <section class="linea">
                 <img src="img/perfil_chi1.png" width="300px">
-            <img src="img/isothermal.png" width="300px">
-            <h3>Hydrodynamic Effects in The Infection by Viruses</h3>
+                <img src="img/isothermal.png" width="300px">
             </section>
+            <h3>Mesoscopic Virus Model with Hydrodynamic Interactions</h3>
+            <video width="400px" autoplay muted playsinline><source src="img/flow.mp4" type="video/mp4"></video>
+            <p>To introduce a flow, such as Poiseuille flow, it is necessary to apply a
+                pressure gradient. Additionally, it is essential to implement
+                non-slip boundary conditions. In the context of computational simulations,
+                this could be achieved by using rough walls.
+                The presence of rough walls induces interactions that slow down the
+                particles near the boundaries.</p>
+            <section class="linea">
+                <img src="img/isothermal_poiseuille_fit.png" width="300px">
+                <img src="img/isothermal_poiseuille_lisa.png" width="300px">
+            </section>
+            \[ \Gamma(\rho_b) = \Gamma_{max} \frac{k_L \rho_b}{1 + k_L \rho_b} - \alpha \rho_b \]
         </section>
     </main>
     <footer>Made by Taquito</footer>
